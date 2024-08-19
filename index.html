@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <form action="">
+        <div class="inputContainer">
+          <label for="day">DAY</label>
+          <input type="number" id="day" name="day" placeholder="DD" />
+        </div>
+        <div class="inputContainer">
+          <label for="month">MONTH</label>
+          <input type="number" id="month" name="month" placeholder="MM" />
+        </div>
+        <div class="inputContainer">
+          <label for="year">YEAR</label>
+          <input type="number" id="year" name="year" placeholder="YYYY" />
+        </div>
+      </form>
+
+      <div class="arrow">
+        <hr />
+        <img src="./assets/images/icon-arrow.svg" alt="arrow" id="arrowImg" />
+      </div>
+
+      <div class="result">
+        <h1><span>- -</span>years</h1>
+        <h1><span>- -</span>months</h1>
+        <h1><span>- -</span>days</h1>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
